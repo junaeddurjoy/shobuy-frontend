@@ -1,3 +1,4 @@
+import Marquee from "react-fast-marquee";
 
 const Home = () => {
     return (
@@ -98,10 +99,72 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             {/* banner-3 end */}
+
+            {/* banner-4 start */}
+            <div className="bg-[#E8F9EF]">
+                <div className="py-20 px-16">
+                    <h1 className="text-center text-4xl md:text-5xl lg:text-6xl font-bold pb-16">shopping’s new normal.</h1>
+                    <div className=" lg:px-32 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
+                        <div>
+                            <img className="h-32 w-32 mx-auto lg:mx-0" src="../../../public/assets/images/icons/icon-1.png" alt="" />
+                            <h3 className="font-extrabold text-2xl text-center lg:text-left">never pay interest</h3>
+                            <p className="text-center lg:text-left">loans and EMIs drain away to hard earned money. rather save with us to live in luxury</p>
+                        </div>
+                        <div>
+                            <img className="h-32 w-32 mx-auto lg:mx-0" src="../../../public/assets/images/icons/icon-2.png" alt="" />
+                            <h3 className="font-extrabold text-2xl text-center lg:text-left">never save in banks</h3>
+                            <p className="text-center lg:text-left">saving in banks might put you in a loss because of the rising inflation. better buy what you want and earn money</p>
+                        </div>
+                        <div>
+                            <img className="h-32 w-32 mx-auto lg:mx-0" src="../../../public/assets/images/icons/icon-3.png" alt="" />
+                            <h3 className="font-extrabold text-2xl text-center lg:text-left">no one give you extra but us</h3>
+                            <p className="text-center lg:text-left">while you invest with us to buy luxury, we increase your money, delivering your desire with extra cash for you. so buy more for less </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* banner-4 end */}
+
+            {/* banner-5 start */}
+            <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/BsR7P1Y/banner-2.png)' }}>
+                <div className="hero-overlay bg-opacity-0"></div>
+                <div className="hero-content text-center text-neutral-content">
+                    <div>
+                        <h1 className="mb-5 text-4xl md:text-6xl lg:text-8xl font-bold">beat interest & win inflation in 4 steps</h1>
+                    </div>
+                </div>
+            </div>
+            {/* banner-5 end */}
+
+            {/* banner-6 start */}
+            <div className="py-20 px-10 lg:px-20">
+                <h1 className="text-center text-4xl md:text-6xl lg:text-8xl font-bold pb-10">earn whenever spending</h1>
+                <img src="../../../public/assets/images/banner/banner-3.jpg"
+                    className="mx-auto h-80 w-80 md:h-[480px] md:w-[480px] lg:h-[580px] lg:w-[580px] rounded-3xl" alt="" />
+                {/* <p className="pt-16 text-center pb-10">The values are calculated based on 6 months, Average 8% ROI and 10% brand deal. The actual values may vary.</p> */}
+                <div className="text-center py-10">
+                    <button className="btn btn-warning rounded-3xl px-14 text-xl bg-[#FFDA00] font-bold hover:underline hover:bg-[#FFDA00]">Marketplace</button>
+                </div>
+                <div className="pb-10">
+                    <h1 className="text-center text-3xl md:text-6xl lg:text-7xl">brands supporting you</h1>
+                </div>
+                <Marquee>
+                    <div className="flex gap-10">
+                        <img className="h-20" src="../../../public/assets/images/logo/logo-1.jpg" alt="" />
+                        <img className="h-20" src="../../../public/assets/images/logo/logo-2.png" alt="" />
+                        <img className="h-20" src="../../../public/assets/images/logo/logo-3.png" alt="" />
+                        <img className="h-20" src="../../../public/assets/images/logo/logo-4.png" alt="" />
+                        <img className="h-20" src="../../../public/assets/images/logo/logo-5.png" alt="" />
+                        <img className="h-20" src="../../../public/assets/images/logo/logo-6.png" alt="" />
+                        <img className="h-20 w-36 pr-8" src="../../../public/assets/images/logo/logo-7.jpg" alt="" />
+                    </div>
+                </Marquee>
+            </div>
+            {/* banner-6 end */}
         </div>
     );
 };
