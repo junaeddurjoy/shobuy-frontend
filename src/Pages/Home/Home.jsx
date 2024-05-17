@@ -165,7 +165,71 @@ const Home = () => {
                 </Marquee>
             </div>
             {/* banner-6 end */}
+
+            {/* banner-7 start */}
+            <div className="bg-black p-16">
+                {/* slide-1 */}
+                <div className="hero">
+                    <div className="hero-content flex-col lg:flex-row-reverse">
+                        <img src="../../../public/assets/images/slide/slide-1.jpg"
+                            className="md:h-[550px] md:w-[500px] lg:h-[600px] lg:w-[650px] rounded-lg shadow-2xl" />
+                        <div className="md:px-16 lg:px-0">
+                            <h1 className=" text-3xl md:text-4xl lg:text-7xl font-bold text-white">choose the product you desire</h1>
+                            <p className="py-6  text-white lg:text-2xl">make that high-ticket purchase that will uplift you lifestyle. don’t worry about spending too much because we will make sure to return as much money as possible</p>
+
+                        </div>
+                    </div>
+                </div>
+                {/* slide-2 */}
+                <div className="hero">
+                    <div className="hero-content flex-col lg:flex-row">
+                        <img src="../../../public/assets/images/slide/slide-2.jpg" className="md:h-[550px] md:w-[500px] lg:h-[600px] lg:w-[650px] rounded-lg shadow-2xl" />
+                        <div className="md:px-16 lg:px-0">
+                            <h1 className="text-3xl text-right md:text-4xl lg:text-7xl font-bold text-white">schedule your monthly auto-investments</h1>
+                            <p className="py-6 text-right text-white lg:text-2xl">select auto-investment at ease. don’t put too much pressure and setup the timeline that benefits you</p>
+                        </div>
+                    </div>
+                </div>
+                {/* slide-3 */}
+                <div className="hero">
+                    <div className="hero-content flex-col lg:flex-row-reverse">
+                        <img src="../../../public/assets/images/slide/slide-3.jpg"
+                            className="md:h-[550px] md:w-[500px] lg:h-[600px] lg:w-[650px] rounded-lg shadow-2xl" />
+                        <div className="md:px-16 lg:px-0">
+                            <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold text-white">see your fund grow</h1>
+                            <p className="py-6 text-white lg:text-2xl">enjoy excellent returns from Mutual funds that grow and grow every month you had setup the purchase plan for</p>
+
+                        </div>
+                    </div>
+                </div>
+                {/* slide-4 */}
+                <div className="hero">
+                    <div className="hero-content flex-col lg:flex-row">
+                        <img src="../../../public/assets/images/slide/slide-4.jpg" className="md:h-[550px] md:w-[500px] lg:h-[600px] lg:w-[650px] rounded-lg shadow-2xl" />
+                        <div className="md:px-16 lg:px-0">
+                            <h1 className="text-3xl text-right md:text-4xl lg:text-7xl font-bold text-white">in the end, you win big</h1>
+                            <p className="py-6 text-right text-white lg:text-2xl">after the completion of your purchasing plan you get the high-ticket product and cash rewards from brand deals and investments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* banner-7 end */}
+
+            {/* banner-8 start */}
+            <div className="bg-[#D9E4FC] py-10">
+                <h1 className="text-center text-4xl md:text-6xl lg:text-8xl font-bold pb-10">meet smart spenders</h1>
+                <Marquee>
+                    <img className="h-96" src="../../../public/assets/images/slide/slide-5.jpg" alt="" />
+                    <img className="h-96" src="../../../public/assets/images/slide/slide-5.jpg" alt="" />
+                    <img className="h-96" src="../../../public/assets/images/slide/slide-5.jpg" alt="" />
+                </Marquee>
+                <div className="text-center pt-10">
+                    <button className="btn btn-warning rounded-3xl px-14 text-xl bg-[#FFDA00] font-bold hover:underline hover:bg-[#FFDA00]">Marketplace</button>
+                </div>
+            </div>
+            {/* banner-8 end */}
         </div>
+        
     );
 };
 
