@@ -1,40 +1,59 @@
 import { Link } from "react-router-dom";
+import { MdOutlineMenu } from "react-icons/md";
 
 const Navbar = () => {
     return (
         <div>
             <div className="navbar bg-black text-white px-10 py-4">
                 <div className="navbar-start">
-                    <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    <div className="drawer drawer-end lg:hidden">
+                        <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
+                        <div className="drawer-content">
+                            {/* Page content here */}
+                            <label htmlFor="my-drawer-4" className="drawer-button"><MdOutlineMenu className="text-2xl" /></label>
                         </div>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black text-white rounded-box w-auto font-bold">
-                            <li><a>Marketplace</a></li>
-                            <hr />
-                            <li><a>Membership</a></li>
-                            <hr />
-                            <li><a>About Us</a></li>
-                            <hr />
-                            <li><a>FAQs</a></li>
-                        </ul>
+                        <div className="drawer-side">
+                            <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
+                            <ul className="menu p-4 w-80 min-h-full bg-gray-800 text-white text-center  font-bold text-lg">
+                                <li className="pb-5">
+                                    <div className="flex items-center gap-1 btn btn-ghost w-40 -ml-5">
+                                        <div>
+                                            <img src="../../../public/assets/images/logo/shobuy.png" className="h-10 w-15" alt="" />
+                                        </div>
+                                        <div>
+                                            <p className="text-xl font-bold">shobuy</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                {/* Sidebar content here */}
+                                <li><a>Marketplace</a></li>
+                                <hr />
+                                <li><a>Membership</a></li>
+                                <hr />
+                                <li><Link to={'aboutUs'}>About Us</Link></li>
+                                <hr />
+                                <li><a>FAQs</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <Link to={'/'}>
-                        <div className="flex items-center gap-1 btn btn-ghost w-40 -ml-5">
-                            <div>
-                                <img src="../../../public/assets/images/logo/shobuy.png" className="h-10 w-15" alt="" />
+                    <div className="-ml-0 md:-ml-[19rem] lg:-ml-0">
+                        <Link to={'/'}>
+                            <div className="flex items-center gap-1 btn btn-ghost w-40 -ml-5">
+                                <div>
+                                    <img src="../../../public/assets/images/logo/shobuy.png" className="h-10 w-15" alt="" />
+                                </div>
+                                <div>
+                                    <p className="text-xl font-bold">shobuy</p>
+                                </div>
                             </div>
-                            <div>
-                                <p className="text-xl font-bold">shobuy</p>
-                            </div>
-                        </div>
-                    </Link>
+                        </Link>
+                    </div>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-bold">
                         <li className="hover:underline"><a>Marketplace</a></li>
                         <li className="hover:underline"><a>Membership</a></li>
-                        <li className="hover:underline"><a>About Us</a></li>
+                        <li className="hover:underline"><Link to={'aboutUs'}>About Us</Link></li>
                         <li className="hover:underline"><a>FAQs</a></li>
                     </ul>
                 </div>
