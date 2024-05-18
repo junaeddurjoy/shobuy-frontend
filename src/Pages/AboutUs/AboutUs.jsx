@@ -15,24 +15,25 @@ const AboutUs = () => {
                 </p>
             </div>
             <div className="text-center pb-20 px-10 lg:px-20 rounded-3xl">
-                <div className="join join-vertical lg:join-horizontal">
-                    <div className="join-item p-10 md:p-20 lg:p-20 bg-[#D9E4FC] hover:bg-[#D9E4FC]">
+                <div className="join join-vertical lg:join-horizontal w">
+                    <div className="lg:w-1/2 join-item p-10 md:p-20 lg:p-20 bg-[#D9E4FC] hover:bg-[#D9E4FC]">
                         <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-left pb-5">mission</h2>
                         <p className="text-xl text-left">
                             To become a company that earns the most benefits for its consumers on their purchases
                         </p>
                     </div>
-                    <div className="join-item p-10 md:p-20 lg:p-20  bg-[#E8F9EF] hover:bg-[#E8F9EF]">
+                    <div className="lg:w-1/2 join-item p-10 md:p-20 lg:p-20  bg-[#E8F9EF] hover:bg-[#E8F9EF]">
                         <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-left pb-5">vision</h2>
                         <p className="text-xl text-left">
                             To build a marketplace where people can invest and plan to buy anything they might want to own
                         </p>
                     </div>
                 </div>
+
             </div>
 
-            <div className="px-10 lg:px-20 pb-20">
-                <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold text-center pb-10">how you save your money</h1>
+            {/* <div className="px-10 lg:px-20 pb-20 pt-10 bg-[#EFEFEF]">
+                <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold text-center pb-10">save your money with sales and discounts</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-x-0 gap-y-0">
                     <img className="h-[30rem] md:h-[60rem] lg:h-[30rem] w-full" src="../../../public/assets/images/about/about-6.jpg" alt="" />
                     <img className="col-span-2 h-[16rem] md:h-[30rem] lg:h-[30rem] w-full" src="../../../public/assets/images/about/about-10.avif" alt="" />
@@ -41,6 +42,36 @@ const AboutUs = () => {
                     <img className="col-span-2 h-[16rem] md:h-[30rem] lg:h-[30rem] w-full" src="../../../public/assets/images/about/about-3.avif" alt="" />
                     <img className="col-span-2 h-[16rem] md:h-[30rem] lg:h-[30rem] w-full" src="../../../public/assets/images/about/about-2.jpg" alt="" />
                     <img className="col-span-2 h-[16rem] md:h-[30rem] lg:h-[30rem] w-full" src="../../../public/assets/images/about/about-5.jpg" alt="" />
+                </div>
+            </div> */}
+            <h1 className="text-4xl md:text-5xl lg:text-8xl font-bold text-center text-base-300 -mb-[5px] md:-mb-1 lg:-mb-3">Save With SHOBUY!</h1>
+            <div className="px-10 lg:px-20 pb-10 bg-[#EFEFEF]">
+                {/* <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold text-center">save your money with sales and discounts</h1> */}
+                <div className="p-10 lg:p-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center">
+                    <div className="bg-[#FFE6FB]">
+                        <figure>
+                            <img src="../../../public/assets/images/banner/person-1.png" alt="" />
+                        </figure>
+                        <figcaption className="text-xl bg-black text-white">Responsibility</figcaption>
+                    </div>
+                    <div className="bg-[#C6FFF5] pt-0 md:pt-[0.8px] lg:pt-0">
+                        <figure>
+                            <img src="../../../public/assets/images/banner/person-2.png" alt="" />
+                        </figure>
+                        <figcaption className="text-xl bg-black text-white">Trust</figcaption>
+                    </div>
+                    <div className="bg-[#bee2cd]">
+                        <figure>
+                            <img src="../../../public/assets/images/banner/person-3.png" alt="" />
+                        </figure>
+                        <figcaption className="text-xl bg-black text-white">Togetherness</figcaption>
+                    </div>
+                    <div className="bg-[#f8fccc]">
+                        <figure>
+                            <img src="../../../public/assets/images/banner/person-4.png" alt="" />
+                        </figure>
+                        <figcaption className="text-xl bg-black text-white">Commitment</figcaption>
+                    </div>
                 </div>
             </div>
         </div>

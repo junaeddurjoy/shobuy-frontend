@@ -147,7 +147,34 @@ const Home = () => {
                     className="mx-auto h-80 w-80 md:h-[480px] md:w-[480px] lg:h-[580px] lg:w-[580px] rounded-3xl" alt="" />
                 {/* <p className="pt-16 text-center pb-10">The values are calculated based on 6 months, Average 8% ROI and 10% brand deal. The actual values may vary.</p> */}
                 <div className="text-center py-10">
-                    <button className="btn btn-warning rounded-3xl px-14 text-xl bg-[#FFDA00] font-bold hover:underline hover:bg-[#FFDA00]">Marketplace</button>
+                    <button onClick={() => document.getElementById('my_modal').showModal()} className="btn text-white rounded-3xl px-14 text-xl bg-orange-500 font-bold hover:underline hover:bg-orange-600">Best Offer</button>
+                    {/* Open the modal using document.getElementById('ID').showModal() method */}
+                    <dialog id="my_modal" className="modal">
+                        <div className="modal-box">
+                            <h3 className="font-bold text-2xl md:text-4xl lg:text-4xl">earn whenever spending</h3>
+                            <div className="px-10 pt-2 pb-5">
+                                <img className="rounded-2xl shadow-blue-300 shadow-xl" src="../../../public/assets/images/banner/modal-1.jpg" alt="" />
+                            </div>
+                            <div className="grid grid-cols-3 gap-2">
+                                <div className="text-center">
+                                    <h1 className="text-xl font-medium bg-black text-white">Market Price</h1>
+                                    <h3 className="font-bold text-xl border-2 border-black">50,000 BDT</h3>
+                                </div>
+                                <div className="text-center">
+                                    <h1 className="text-xl font-medium bg-black text-white">Discount Price</h1>
+                                    <h3 className="font-bold text-xl border-2 border-black">40,000 BDT</h3>
+                                </div>
+                                <div className="text-center bg-red-600 text-white justify-center">
+                                    <h3 className=" ">You Saved 
+                                    <br />
+                                    <span className="text-3xl font-mono">20%</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <form method="dialog" className="modal-backdrop">
+                            <button>close</button>
+                        </form>
+                    </dialog>
                 </div>
                 <div className="pb-10">
                     <h1 className="text-center text-3xl md:text-6xl lg:text-7xl">brands supporting you</h1>
@@ -193,7 +220,7 @@ const Home = () => {
                 {/* slide-3 */}
                 <div className="hero">
                     <div className="hero-content flex-col lg:flex-row-reverse">
-                        <img src="../../../public/assets/images/slide/slide-3.jpg"
+                        <img src="../../../public/assets/images/slide/slide-3.webp"
                             className="md:h-[550px] md:w-[500px] lg:h-[600px] lg:w-[650px] rounded-lg shadow-2xl" />
                         <div className="md:px-16 lg:px-0">
                             <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold text-white">see your fund grow</h1>
@@ -229,7 +256,7 @@ const Home = () => {
             </div>
             {/* banner-8 end */}
         </div>
-        
+
     );
 };
 

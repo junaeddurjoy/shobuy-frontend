@@ -32,7 +32,7 @@ const Navbar = () => {
                                 <hr />
                                 <li><Link to={'aboutUs'}>About Us</Link></li>
                                 <hr />
-                                <li><a>FAQs</a></li>
+                                <li className="hover:underline"><Link to={'FAQs'}>FAQs</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Navbar = () => {
                         <li className="hover:underline"><a>Marketplace</a></li>
                         <li className="hover:underline"><a>Membership</a></li>
                         <li className="hover:underline"><Link to={'aboutUs'}>About Us</Link></li>
-                        <li className="hover:underline"><a>FAQs</a></li>
+                        <li className="hover:underline"><Link to={'FAQs'}>FAQs</Link></li>
                     </ul>
                 </div>
             </div>
