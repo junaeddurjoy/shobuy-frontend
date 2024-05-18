@@ -6,23 +6,21 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import FAQs from "../Pages/FAQs/FAQs";
-import App from "../App";
 export const router = createBrowserRouter([
     {
         path: "/",
-        // element: <Main></Main>,
-        element: <App></App>,
+        element: <Main></Main>,
         children: [
             {
-                path: "/",
+                path: "/shobuy-frontend",
                 element: <Home></Home>,
             },
             {
-                path: "aboutUs",
+                path: "/shobuy-frontend/aboutUs",
                 element: <AboutUs></AboutUs>,
             },
             {
-                path: "FAQs",
+                path: "/shobuy-frontend/FAQs",
                 element: <FAQs></FAQs>,
             }
         ]
