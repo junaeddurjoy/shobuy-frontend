@@ -8,7 +8,7 @@ import AboutUs from "../Pages/AboutUs/AboutUs";
 import FAQs from "../Pages/FAQs/FAQs";
 export const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/shobuy-frontend",
         element: <Main></Main>,
         children: [
             {
