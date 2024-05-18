@@ -6,10 +6,12 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import FAQs from "../Pages/FAQs/FAQs";
+import App from "../App";
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <Main></Main>,
+        // element: <Main></Main>,
+        element: <App></App>,
         children: [
             {
                 path: "/",
