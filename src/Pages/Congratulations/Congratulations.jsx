@@ -10,8 +10,6 @@ const Congratulations = () => {
                 <br />
                 <span className="loading loading-spinner text-white loading-lg pt-5"></span>
             </p>
-            
-
         </div>
     );
 };

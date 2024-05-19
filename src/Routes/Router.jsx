@@ -11,6 +11,13 @@ import SetupPayment from "../Pages/SetupPayment/SetupPayment";
 import SetupPaymentMethod from "../Pages/SetupPayment/SetupPaymentMethod";
 import Plan from "../Pages/Plan/Plan";
 import ProductPage from "../Pages/Product/ProductPage";
+import ProductCollection from "../Pages/Product/ProductCollection";
+import Marketplace from "../Pages/Marketplace/Marketplace";
+import OTPLoading from "../Pages/OTPLayout/OTPLoading";
+import OTPVerify from "../Pages/OTPLayout/OTPVerify";
+import Membership from "../Pages/Membership/Membership";
+import LogIn from "../Pages/LogIn/LogIn";
+
 export const router = createBrowserRouter([
     // {
     //     path: "/shobuy-frontend",
@@ -65,6 +72,30 @@ export const router = createBrowserRouter([
             {
                 path: "/productPage",
                 element: <ProductPage></ProductPage>,
+            },
+            {
+                path: "/productCollection",
+                element: <ProductCollection></ProductCollection>,
+            },
+            {
+                path: "/marketplace",
+                element: <Marketplace></Marketplace>,
+            },
+            {
+                path: "/otpLoading",
+                element: <OTPLoading></OTPLoading>,
+            },
+            {
+                path: "/otpVerify",
+                element: <OTPVerify></OTPVerify>,
+            },
+            {
+                path: "/membership",
+                element: <Membership></Membership>,
+            },
+            {
+                path: "/login",
+                element: <LogIn></LogIn>,
             },
         ]
     },

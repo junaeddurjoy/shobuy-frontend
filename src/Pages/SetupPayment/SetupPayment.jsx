@@ -48,7 +48,6 @@ const SetupPayment = () => {
                             <h1 className="-mt-2 text-3xl text-white">you invest</h1>
                             <h1 className="text-2xl font-semibold text-white"><span className="text-yellow-400">৳25,000</span> per month</h1>
                             <h1 className="text-2xl font-light text-yellow-400">Total ৳1,50,000</h1>
-
                         </div>
                     </div>
                     <div className="pt-7 flex gap-2">

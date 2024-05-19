@@ -12,7 +12,7 @@ const Navbar = () => {
                             {/* Page content here */}
                             <label htmlFor="my-drawer-4" className="drawer-button"><MdOutlineMenu className="text-2xl" /></label>
                         </div>
-                        <div className="drawer-side">
+                        <div className="drawer-side z-10">
                             <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
                             <ul className="menu p-4 w-80 min-h-full bg-gray-800 text-white text-center  font-bold text-lg">
                                 <li className="pb-5">
@@ -47,6 +47,13 @@ const Navbar = () => {
                                 </div>
                             </div>
                         </Link>
+                        {/* <Link>
+                            <div className="avatar">
+                                <div className="w-10 rounded-xl">
+                                    <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div>
+                        </Link> */}
                     </div>
                 </div>
                 <div className="navbar-end hidden lg:flex">
@@ -55,6 +62,11 @@ const Navbar = () => {
                         <li className="hover:underline"><a>Membership</a></li>
                         <li className="hover:underline"><Link to={'aboutUs'}>About Us</Link></li>
                         <li className="hover:underline"><Link to={'FAQs'}>FAQs</Link></li>
+                        <div className="avatar">
+                            <div className="w-10 rounded-xl">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                            </div>
+                        </div>
                     </ul>
                 </div>
             </div>

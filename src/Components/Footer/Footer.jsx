@@ -15,12 +15,16 @@ const Footer = () => {
                     <Link to={'/setupPayment'}><a className="link link-hover">Setup Payment</a></Link>
                     <Link to={'/setupPaymentMethod'}><a className="link link-hover">Setup Payment Method</a></Link>
                     <Link to={'/plan'}><a className="link link-hover">Plan</a></Link>
+                    <Link to={'/membership'}><a className="link link-hover">Membership</a></Link>
+                    <Link to={'/login'}><a className="link link-hover">Log In</a></Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Company</h6>
                     <Link to={'/productPage'}><a className="link link-hover">Product</a></Link>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
+                    <Link to={'/productCollection'}><a className="link link-hover">Product Collection</a></Link>
+                    <Link to={'/marketplace'}><a className="link link-hover">Marketplace</a></Link>
+                    <Link to={'/otpLoading'}><a className="link link-hover">OTP Loading</a></Link>
+                    <Link to={'/otpVerify'}><a className="link link-hover">OTP Verify</a></Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Legal</h6>
