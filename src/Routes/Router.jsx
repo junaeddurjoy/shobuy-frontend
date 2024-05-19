@@ -9,6 +9,7 @@ import FAQs from "../Pages/FAQs/FAQs";
 import Congratulations from "../Pages/Congratulations/Congratulations";
 import SetupPayment from "../Pages/SetupPayment/SetupPayment";
 import SetupPaymentMethod from "../Pages/SetupPayment/SetupPaymentMethod";
+import Plan from "../Pages/Plan/Plan";
 export const router = createBrowserRouter([
     // {
     //     path: "/shobuy-frontend",
@@ -55,6 +56,10 @@ export const router = createBrowserRouter([
             {
                 path: "/setupPaymentMethod",
                 element: <SetupPaymentMethod></SetupPaymentMethod>,
+            },
+            {
+                path: "/plan",
+                element: <Plan></Plan>,
             },
         ]
     },
