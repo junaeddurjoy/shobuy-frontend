@@ -6,6 +6,9 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import FAQs from "../Pages/FAQs/FAQs";
+import Congratulations from "../Pages/Congratulations/Congratulations";
+import SetupPayment from "../Pages/SetupPayment/SetupPayment";
+import SetupPaymentMethod from "../Pages/SetupPayment/SetupPaymentMethod";
 export const router = createBrowserRouter([
     // {
     //     path: "/shobuy-frontend",
@@ -40,7 +43,19 @@ export const router = createBrowserRouter([
             {
                 path: "/FAQs",
                 element: <FAQs></FAQs>,
-            }
+            },
+            {
+                path: "/congratulations",
+                element: <Congratulations></Congratulations>,
+            },
+            {
+                path: "/setupPayment",
+                element: <SetupPayment></SetupPayment>,
+            },
+            {
+                path: "/setupPaymentMethod",
+                element: <SetupPaymentMethod></SetupPaymentMethod>,
+            },
         ]
     },
 ]);

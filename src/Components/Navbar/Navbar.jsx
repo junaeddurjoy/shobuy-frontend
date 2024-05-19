@@ -18,7 +18,7 @@ const Navbar = () => {
                                 <li className="pb-5">
                                     <div className="flex items-center gap-1 btn btn-ghost w-40 -ml-5">
                                         <div>
-                                            <img src="../../../public/assets/images/logo/shobuy.png" className="h-10 w-15" alt="" />
+                                            <img src="/public/assets/images/logo/shobuy.png" className="h-10 w-15" alt="" />
                                         </div>
                                         <div>
                                             <p className="text-xl font-bold">shobuy</p>
@@ -40,7 +40,7 @@ const Navbar = () => {
                         <Link to={'/'}>
                             <div className="flex items-center gap-1 btn btn-ghost w-40 -ml-5">
                                 <div>
-                                    <img src="../../../public/assets/images/logo/shobuy.png" className="h-10 w-15" alt="" />
+                                    <img src="/public/assets/images/logo/shobuy.png" className="h-10 w-15" alt="" />
                                 </div>
                                 <div>
                                     <p className="text-xl font-bold">shobuy</p>
