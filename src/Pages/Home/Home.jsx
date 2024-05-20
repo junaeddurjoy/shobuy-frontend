@@ -110,17 +110,17 @@ const Home = () => {
                     <h1 className="text-center text-4xl md:text-5xl lg:text-6xl font-bold pb-16">shopping’s new normal.</h1>
                     <div className=" lg:px-32 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
                         <div>
-                            <img className="h-32 w-32 mx-auto lg:mx-0" src="/public/assets/images/icons/icon-1.png" alt="" />
+                            <img className="h-32 w-32 mx-auto lg:mx-0" src="public/assets/images/icons/icon-1.png" alt="" />
                             <h3 className="font-extrabold text-2xl text-center lg:text-left">never pay interest</h3>
                             <p className="text-center lg:text-left">loans and EMIs drain away to hard earned money. rather save with us to live in luxury</p>
                         </div>
                         <div>
-                            <img className="h-32 w-32 mx-auto lg:mx-0" src="/public/assets/images/icons/icon-2.png" alt="" />
+                            <img className="h-32 w-32 mx-auto lg:mx-0" src="public/assets/images/icons/icon-2.png" alt="" />
                             <h3 className="font-extrabold text-2xl text-center lg:text-left">never save in banks</h3>
                             <p className="text-center lg:text-left">saving in banks might put you in a loss because of the rising inflation. better buy what you want and earn money</p>
                         </div>
                         <div>
-                            <img className="h-32 w-32 mx-auto lg:mx-0" src="/public/assets/images/icons/icon-3.png" alt="" />
+                            <img className="h-32 w-32 mx-auto lg:mx-0" src="public/assets/images/icons/icon-3.png" alt="" />
                             <h3 className="font-extrabold text-2xl text-center lg:text-left">no one give you extra but us</h3>
                             <p className="text-center lg:text-left">while you invest with us to buy luxury, we increase your money, delivering your desire with extra cash for you. so buy more for less </p>
                         </div>
@@ -143,7 +143,7 @@ const Home = () => {
             {/* banner-6 start */}
             <div className="py-20 px-10 lg:px-20">
                 <h1 className="text-center text-4xl md:text-6xl lg:text-8xl font-bold pb-10">earn whenever spending</h1>
-                <img src="/public/assets/images/banner/banner-3.jpg"
+                <img src="public/assets/images/banner/banner-3.jpg"
                     className="mx-auto h-80 w-80 md:h-[480px] md:w-[480px] lg:h-[580px] lg:w-[580px] rounded-3xl" alt="" />
                 {/* <p className="pt-16 text-center pb-10">The values are calculated based on 6 months, Average 8% ROI and 10% brand deal. The actual values may vary.</p> */}
                 <div className="text-center py-10">
@@ -153,7 +153,7 @@ const Home = () => {
                         <div className="modal-box">
                             <h3 className="font-bold text-2xl md:text-4xl lg:text-4xl">earn whenever spending</h3>
                             <div className="px-10 pt-2 pb-5">
-                                <img className="rounded-2xl shadow-blue-300 shadow-xl" src="/public/assets/images/banner/modal-1.jpg" alt="" />
+                                <img className="rounded-2xl shadow-blue-300 shadow-xl" src="public/assets/images/banner/modal-1.jpg" alt="" />
                             </div>
                             <div className="grid grid-cols-3 gap-2">
                                 <div className="text-center">
@@ -181,13 +181,13 @@ const Home = () => {
                 </div>
                 <Marquee>
                     <div className="flex gap-10">
-                        <img className="h-20" src="/public/assets/images/logo/logo-1.jpg" alt="" />
-                        <img className="h-20" src="/public/assets/images/logo/logo-2.png" alt="" />
-                        <img className="h-20" src="/public/assets/images/logo/logo-3.png" alt="" />
-                        <img className="h-20" src="/public/assets/images/logo/logo-4.png" alt="" />
-                        <img className="h-20" src="/public/assets/images/logo/logo-5.png" alt="" />
-                        <img className="h-20" src="/public/assets/images/logo/logo-6.png" alt="" />
-                        <img className="h-20 w-36 pr-8" src="/public/assets/images/logo/logo-7.jpg" alt="" />
+                        <img className="h-20" src="public/assets/images/logo/logo-1.jpg" alt="" />
+                        <img className="h-20" src="public/assets/images/logo/logo-2.png" alt="" />
+                        <img className="h-20" src="public/assets/images/logo/logo-3.png" alt="" />
+                        <img className="h-20" src="public/assets/images/logo/logo-4.png" alt="" />
+                        <img className="h-20" src="public/assets/images/logo/logo-5.png" alt="" />
+                        <img className="h-20" src="public/assets/images/logo/logo-6.png" alt="" />
+                        <img className="h-20 w-36 pr-8" src="public/assets/images/logo/logo-7.jpg" alt="" />
                     </div>
                 </Marquee>
             </div>
@@ -198,7 +198,7 @@ const Home = () => {
                 {/* slide-1 */}
                 <div className="hero">
                     <div className="hero-content flex-col lg:flex-row-reverse">
-                        <img src="/public/assets/images/slide/slide-1.jpg"
+                        <img src="public/assets/images/slide/slide-1.jpg"
                             className="md:h-[550px] md:w-[500px] lg:h-[600px] lg:w-[650px] rounded-lg shadow-2xl" />
                         <div className="md:px-16 lg:px-0">
                             <h1 className=" text-3xl md:text-4xl lg:text-7xl font-bold text-white">choose the product you desire</h1>
@@ -210,7 +210,7 @@ const Home = () => {
                 {/* slide-2 */}
                 <div className="hero">
                     <div className="hero-content flex-col lg:flex-row">
-                        <img src="/public/assets/images/slide/slide-2.jpg" className="md:h-[550px] md:w-[500px] lg:h-[600px] lg:w-[650px] rounded-lg shadow-2xl" />
+                        <img src="public/assets/images/slide/slide-2.jpg" className="md:h-[550px] md:w-[500px] lg:h-[600px] lg:w-[650px] rounded-lg shadow-2xl" />
                         <div className="md:px-16 lg:px-0">
                             <h1 className="text-3xl text-right md:text-4xl lg:text-7xl font-bold text-white">schedule your monthly auto-investments</h1>
                             <p className="py-6 text-right text-white lg:text-2xl">select auto-investment at ease. don’t put too much pressure and setup the timeline that benefits you</p>
@@ -220,7 +220,7 @@ const Home = () => {
                 {/* slide-3 */}
                 <div className="hero">
                     <div className="hero-content flex-col lg:flex-row-reverse">
-                        <img src="/public/assets/images/slide/slide-3.webp"
+                        <img src="public/assets/images/slide/slide-3.webp"
                             className="md:h-[550px] md:w-[500px] lg:h-[600px] lg:w-[650px] rounded-lg shadow-2xl" />
                         <div className="md:px-16 lg:px-0">
                             <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold text-white">see your fund grow</h1>
@@ -232,7 +232,7 @@ const Home = () => {
                 {/* slide-4 */}
                 <div className="hero">
                     <div className="hero-content flex-col lg:flex-row">
-                        <img src="/public/assets/images/slide/slide-4.jpg" className="md:h-[550px] md:w-[500px] lg:h-[600px] lg:w-[650px] rounded-lg shadow-2xl" />
+                        <img src="public/assets/images/slide/slide-4.jpg" className="md:h-[550px] md:w-[500px] lg:h-[600px] lg:w-[650px] rounded-lg shadow-2xl" />
                         <div className="md:px-16 lg:px-0">
                             <h1 className="text-3xl text-right md:text-4xl lg:text-7xl font-bold text-white">in the end, you win big</h1>
                             <p className="py-6 text-right text-white lg:text-2xl">after the completion of your purchasing plan you get the high-ticket product and cash rewards from brand deals and investments</p>
@@ -246,9 +246,9 @@ const Home = () => {
             <div className="bg-[#D9E4FC] py-10">
                 <h1 className="text-center text-4xl md:text-6xl lg:text-8xl font-bold pb-10">meet smart spenders</h1>
                 <Marquee>
-                    <img className="h-96" src="/public/assets/images/slide/slide-5.jpg" alt="" />
-                    <img className="h-96" src="/public/assets/images/slide/slide-5.jpg" alt="" />
-                    <img className="h-96" src="/public/assets/images/slide/slide-5.jpg" alt="" />
+                    <img className="h-96" src="public/assets/images/slide/slide-5.jpg" alt="" />
+                    <img className="h-96" src="public/assets/images/slide/slide-5.jpg" alt="" />
+                    <img className="h-96" src="public/assets/images/slide/slide-5.jpg" alt="" />
                 </Marquee>
                 <div className="text-center pt-10">
                     <button className="btn btn-warning rounded-3xl px-14 text-xl bg-[#FFDA00] font-bold hover:underline hover:bg-[#FFDA00]">Marketplace</button>

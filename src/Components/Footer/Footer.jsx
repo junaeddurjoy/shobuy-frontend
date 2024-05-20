@@ -6,7 +6,7 @@ const Footer = () => {
             {/* <footer className="fixed bottom-0 footer p-10 bg-black text-white"> */}
             <footer className=" footer p-10 bg-black text-white">
                 <aside>
-                    <img className="h-24 w-28" src="/public/assets/images/logo/shobuy.png" alt="" />
+                    <img className="h-24 w-28" src="public/assets/images/logo/shobuy.png" alt="" />
                     <p>SHOBUY Ltd.<br />Providing since 2000</p>
                 </aside>
                 <nav>

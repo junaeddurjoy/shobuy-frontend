@@ -5,7 +5,7 @@ const Plan = () => {
             <div className="p-10 bg-gradient-to-b from-[#002B5E] to-[#000000] rounded-2xl">
                 <div className="flex items-center gap-1 btn btn-ghost w-44 mx-auto">
                     <div>
-                        <img src="/public/assets/images/logo/shobuy.png" className="h-10 w-15" alt="" />
+                        <img src="public/assets/images/logo/shobuy.png" className="h-10 w-15" alt="" />
                     </div>
                     <div>
                         <p className="text-2xl text-white font-light">shobuy</p>
@@ -17,7 +17,7 @@ const Plan = () => {
                     <div>
                         <div className="hero">
                             <div className="hero-content flex-col lg:flex-row">
-                                <img src="/public/assets/images/payment/payment-1.jpg" className="lg:max-w-sm rounded-lg shadow-2xl" />
+                                <img src="public/assets/images/payment/payment-1.jpg" className="lg:max-w-sm rounded-lg shadow-2xl" />
                                 <div>
                                     <h1 className="text-3xl font-semibold text-white">Suzuki Gixxer 150</h1>
                                     <p className="py-6 text-white text-xl">Regular price <br />1,50,000 BDT</p>
@@ -30,7 +30,7 @@ const Plan = () => {
                     <div className="mt-12">
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-5 bg-[#2C2C2C]  hover:border-white hover:border-2  rounded-xl">
                             <div className="pt-7 flex gap-2 w-60 justify-center">
-                                <img className="h-7 w-7" src="/public/assets/images/payment/piggy-bank.png" alt="" />
+                                <img className="h-7 w-7" src="public/assets/images/payment/piggy-bank.png" alt="" />
                                 <div>
                                     <h1 className="-mt-2 text-3xl text-white">you invest</h1>
                                     <h1 className="py-6 text-4xl font-bold text-white">৳1,50,000</h1>
@@ -38,7 +38,7 @@ const Plan = () => {
                                 </div>
                             </div>
                             <div className="pt-7 flex gap-2 w-60 justify-center">
-                                <img className="h-7 w-7" src="/public/assets/images/payment/currency.png" alt="" />
+                                <img className="h-7 w-7" src="public/assets/images/payment/currency.png" alt="" />
                                 <div>
                                     <h1 className="-mt-2 text-3xl text-white">you get</h1>
                                     <div className="pt-5 ">
