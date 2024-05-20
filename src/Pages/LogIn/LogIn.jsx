@@ -1,7 +1,7 @@
 
 const LogIn = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 bg-[url('public/assets/images/banner/background-2.jpg')] p-10 min-h-screen bg-opacity-30">
+        <div className="grid grid-cols-1 lg:grid-cols-2 bg-[url('https://i.ibb.co/pPdpM5V/background-2.jpg')] p-10 min-h-screen bg-opacity-30">
             <div className="text-3xl md:text-5xl lg:text-7xl text-white font-semibold md:p-10 lg:p-10">
             welcome back to the club, champ
             </div>

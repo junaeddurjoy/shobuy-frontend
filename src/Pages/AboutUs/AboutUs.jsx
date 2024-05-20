@@ -50,25 +50,25 @@ const AboutUs = () => {
                 <div className="p-10 lg:p-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center">
                     <div className="bg-[#FFE6FB]">
                         <figure>
-                            <img src="public/assets/images/banner/person-1.png" alt="" />
+                            <img src="https://i.ibb.co/b68yBLQ/person-1.png" alt="" />
                         </figure>
                         <figcaption className="text-xl bg-black text-white">Responsibility</figcaption>
                     </div>
                     <div className="bg-[#C6FFF5] pt-0 md:pt-[0.8px] lg:pt-0">
                         <figure>
-                            <img src="public/assets/images/banner/person-2.png" alt="" />
+                            <img src="https://i.ibb.co/VtH8qzz/person-2.png" alt="" />
                         </figure>
                         <figcaption className="text-xl bg-black text-white">Trust</figcaption>
                     </div>
                     <div className="bg-[#bee2cd]">
                         <figure>
-                            <img src="public/assets/images/banner/person-3.png" alt="" />
+                            <img src="https://i.ibb.co/NTHNMgz/person-3.png" alt="" />
                         </figure>
                         <figcaption className="text-xl bg-black text-white">Togetherness</figcaption>
                     </div>
                     <div className="bg-[#f8fccc]">
                         <figure>
-                            <img src="public/assets/images/banner/person-4.png" alt="" />
+                            <img src="https://i.ibb.co/TDQmj1p/person-4.png" alt="" />
                         </figure>
                         <figcaption className="text-xl bg-black text-white">Commitment</figcaption>
                     </div>

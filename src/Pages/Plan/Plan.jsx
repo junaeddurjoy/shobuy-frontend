@@ -5,7 +5,7 @@ const Plan = () => {
             <div className="p-10 bg-gradient-to-b from-[#002B5E] to-[#000000] rounded-2xl">
                 <div className="flex items-center gap-1 btn btn-ghost w-44 mx-auto">
                     <div>
-                        <img src="public/assets/images/logo/shobuy.png" className="h-10 w-15" alt="" />
+                        <img src="https://i.ibb.co/rZPZKrr/shobuy.png" className="h-10 w-15" alt="" />
                     </div>
                     <div>
                         <p className="text-2xl text-white font-light">shobuy</p>
