@@ -64,7 +64,7 @@ const Navbar = () => {
                         <li className="hover:underline"><Link to={'/shobuy-frontend/FAQs'}>FAQs</Link></li>
                         <div className="avatar">
                             <div className="w-10 rounded-xl">
-                                <img src="public/assets/images/profile/profile-1.png" />
+                                <img src="https://i.ibb.co/7XbXYW3/profile-1.png" />
                             </div>
                         </div>
                     </ul>
