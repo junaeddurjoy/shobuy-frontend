@@ -38,63 +38,63 @@ export const router = createBrowserRouter([
     //     ]
     // },
     {
-        path: "/",
+        path: "/shobuy-frontend",
         element: <Main></Main>,
         children: [
             {
-                path: "/",
+                path: "/shobuy-frontend",
                 element: <Home></Home>,
             },
             {
-                path: "/aboutUs",
+                path: "/shobuy-frontend/aboutUs",
                 element: <AboutUs></AboutUs>,
             },
             {
-                path: "/FAQs",
+                path: "/shobuy-frontend/FAQs",
                 element: <FAQs></FAQs>,
             },
             {
-                path: "/congratulations",
+                path: "/shobuy-frontend/congratulations",
                 element: <Congratulations></Congratulations>,
             },
             {
-                path: "/setupPayment",
+                path: "/shobuy-frontend/setupPayment",
                 element: <SetupPayment></SetupPayment>,
             },
             {
-                path: "/setupPaymentMethod",
+                path: "/shobuy-frontend/setupPaymentMethod",
                 element: <SetupPaymentMethod></SetupPaymentMethod>,
             },
             {
-                path: "/plan",
+                path: "/shobuy-frontend/plan",
                 element: <Plan></Plan>,
             },
             {
-                path: "/productPage",
+                path: "/shobuy-frontend/productPage",
                 element: <ProductPage></ProductPage>,
             },
             {
-                path: "/productCollection",
+                path: "/shobuy-frontend/productCollection",
                 element: <ProductCollection></ProductCollection>,
             },
             {
-                path: "/marketplace",
+                path: "/shobuy-frontend/marketplace",
                 element: <Marketplace></Marketplace>,
             },
             {
-                path: "/otpLoading",
+                path: "/shobuy-frontend/otpLoading",
                 element: <OTPLoading></OTPLoading>,
             },
             {
-                path: "/otpVerify",
+                path: "/shobuy-frontend/otpVerify",
                 element: <OTPVerify></OTPVerify>,
             },
             {
-                path: "/membership",
+                path: "/shobuy-frontend/membership",
                 element: <Membership></Membership>,
             },
             {
-                path: "/login",
+                path: "/shobuy-frontend/login",
                 element: <LogIn></LogIn>,
             },
         ]

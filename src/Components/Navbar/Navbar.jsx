@@ -30,17 +30,17 @@ const Navbar = () => {
                                 <hr />
                                 <li><a>Membership</a></li>
                                 <hr />
-                                <li><Link to={'aboutUs'}>About Us</Link></li>
+                                <li><Link to={'/shobuy-frontend/aboutUs'}>About Us</Link></li>
                                 <hr />
-                                <li className="hover:underline"><Link to={'FAQs'}>FAQs</Link></li>
+                                <li className="hover:underline"><Link to={'/shobuy-frontend/FAQs'}>FAQs</Link></li>
                             </ul>
                         </div>
                     </div>
                     <div className="-ml-0 md:-ml-[19rem] lg:-ml-0">
-                        <Link to={'/'}>
+                        <Link to={'/shobuy-frontend'}>
                             <div className="flex items-center gap-1 btn btn-ghost w-40 -ml-5">
                                 <div>
-                                    <img src="/public/assets/images/logo/shobuy.png" className="h-10 w-15" alt="" />
+                                    <img src="public/assets/images/logo/shobuy.png" className="h-10 w-15" alt="" />
                                 </div>
                                 <div>
                                     <p className="text-xl font-bold">shobuy</p>
@@ -60,8 +60,8 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1 font-bold">
                         <li className="hover:underline"><a>Marketplace</a></li>
                         <li className="hover:underline"><a>Membership</a></li>
-                        <li className="hover:underline"><Link to={'aboutUs'}>About Us</Link></li>
-                        <li className="hover:underline"><Link to={'FAQs'}>FAQs</Link></li>
+                        <li className="hover:underline"><Link to={'/shobuy-frontend/aboutUs'}>About Us</Link></li>
+                        <li className="hover:underline"><Link to={'/shobuy-frontend/FAQs'}>FAQs</Link></li>
                         <div className="avatar">
                             <div className="w-10 rounded-xl">
                                 <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />

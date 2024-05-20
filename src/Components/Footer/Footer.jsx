@@ -11,20 +11,20 @@ const Footer = () => {
                 </aside>
                 <nav>
                     <h6 className="footer-title">Pages</h6>
-                    <Link to={'/congratulations'}><a className="link link-hover">Congratulations</a></Link>
-                    <Link to={'/setupPayment'}><a className="link link-hover">Setup Payment</a></Link>
-                    <Link to={'/setupPaymentMethod'}><a className="link link-hover">Setup Payment Method</a></Link>
-                    <Link to={'/plan'}><a className="link link-hover">Plan</a></Link>
-                    <Link to={'/membership'}><a className="link link-hover">Membership</a></Link>
-                    <Link to={'/login'}><a className="link link-hover">Log In</a></Link>
+                    <Link to={'/shobuy-frontend/congratulations'}><a className="link link-hover">Congratulations</a></Link>
+                    <Link to={'/shobuy-frontend/setupPayment'}><a className="link link-hover">Setup Payment</a></Link>
+                    <Link to={'/shobuy-frontend/setupPaymentMethod'}><a className="link link-hover">Setup Payment Method</a></Link>
+                    <Link to={'/shobuy-frontend/plan'}><a className="link link-hover">Plan</a></Link>
+                    <Link to={'/shobuy-frontend/membership'}><a className="link link-hover">Membership</a></Link>
+                    <Link to={'/shobuy-frontend/login'}><a className="link link-hover">Log In</a></Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Company</h6>
-                    <Link to={'/productPage'}><a className="link link-hover">Product</a></Link>
-                    <Link to={'/productCollection'}><a className="link link-hover">Product Collection</a></Link>
-                    <Link to={'/marketplace'}><a className="link link-hover">Marketplace</a></Link>
-                    <Link to={'/otpLoading'}><a className="link link-hover">OTP Loading</a></Link>
-                    <Link to={'/otpVerify'}><a className="link link-hover">OTP Verify</a></Link>
+                    <Link to={'/shobuy-frontend/productPage'}><a className="link link-hover">Product</a></Link>
+                    <Link to={'/shobuy-frontend/productCollection'}><a className="link link-hover">Product Collection</a></Link>
+                    <Link to={'/shobuy-frontend/marketplace'}><a className="link link-hover">Marketplace</a></Link>
+                    <Link to={'/shobuy-frontend/otpLoading'}><a className="link link-hover">OTP Loading</a></Link>
+                    <Link to={'/shobuy-frontend/otpVerify'}><a className="link link-hover">OTP Verify</a></Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Legal</h6>
