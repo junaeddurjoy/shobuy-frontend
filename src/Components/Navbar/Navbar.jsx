@@ -30,9 +30,9 @@ const Navbar = () => {
                                 <hr />
                                 <li><a>Membership</a></li>
                                 <hr />
-                                <li><Link to={'/shobuy-frontend/aboutUs'}>About Us</Link></li>
+                                <li><Link to={'aboutUs'}>About Us</Link></li>
                                 <hr />
-                                <li className="hover:underline"><Link to={'/shobuy-frontend/FAQs'}>FAQs</Link></li>
+                                <li className="hover:underline"><Link to={'FAQs'}>FAQs</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -60,8 +60,8 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1 font-bold">
                         <li className="hover:underline"><a>Marketplace</a></li>
                         <li className="hover:underline"><a>Membership</a></li>
-                        <li className="hover:underline"><Link to={'/shobuy-frontend/aboutUs'}>About Us</Link></li>
-                        <li className="hover:underline"><Link to={'/shobuy-frontend/FAQs'}>FAQs</Link></li>
+                        <li className="hover:underline"><Link to={'aboutUs'}>About Us</Link></li>
+                        <li className="hover:underline"><Link to={'FAQs'}>FAQs</Link></li>
                         <div className="avatar">
                             <div className="w-10 rounded-xl">
                                 <img src="https://i.ibb.co/7XbXYW3/profile-1.png" />
