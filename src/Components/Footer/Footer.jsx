@@ -20,11 +20,11 @@ const Footer = () => {
                 </nav>
                 <nav>
                     <h6 className="footer-title">Company</h6>
-                    <Link to={'productPage'}><a className="link link-hover">Product</a></Link>
-                    <Link to={'productCollection'}><a className="link link-hover">Product Collection</a></Link>
-                    <Link to={'marketplace'}><a className="link link-hover">Marketplace</a></Link>
-                    <Link to={'otpLoading'}><a className="link link-hover">OTP Loading</a></Link>
-                    <Link to={'otpVerify'}><a className="link link-hover">OTP Verify</a></Link>
+                    <Link to={'/productPage'}><a className="link link-hover">Product</a></Link>
+                    <Link to={'/productCollection'}><a className="link link-hover">Product Collection</a></Link>
+                    <Link to={'/marketplace'}><a className="link link-hover">Marketplace</a></Link>
+                    <Link to={'/otpLoading'}><a className="link link-hover">OTP Loading</a></Link>
+                    <Link to={'/otpVerify'}><a className="link link-hover">OTP Verify</a></Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Legal</h6>
