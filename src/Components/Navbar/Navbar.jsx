@@ -37,7 +37,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="-ml-0 md:-ml-[19rem] lg:-ml-0">
-                        <Link to={'/shobuy-frontend'}>
+                        <Link to={'/'}>
                             <div className="flex items-center gap-1 btn btn-ghost w-40 -ml-5">
                                 <div>
                                     <img src="https://i.ibb.co/rZPZKrr/shobuy.png" className="h-10 w-15" alt="" />

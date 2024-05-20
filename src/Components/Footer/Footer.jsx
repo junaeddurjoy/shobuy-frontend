@@ -11,12 +11,12 @@ const Footer = () => {
                 </aside>
                 <nav>
                     <h6 className="footer-title">Pages</h6>
-                    <Link to={'congratulations'}><a className="link link-hover">Congratulations</a></Link>
-                    <Link to={'setupPayment'}><a className="link link-hover">Setup Payment</a></Link>
-                    <Link to={'setupPaymentMethod'}><a className="link link-hover">Setup Payment Method</a></Link>
-                    <Link to={'plan'}><a className="link link-hover">Plan</a></Link>
-                    <Link to={'membership'}><a className="link link-hover">Membership</a></Link>
-                    <Link to={'login'}><a className="link link-hover">Log In</a></Link>
+                    <Link to={'/congratulations'}><a className="link link-hover">Congratulations</a></Link>
+                    <Link to={'/setupPayment'}><a className="link link-hover">Setup Payment</a></Link>
+                    <Link to={'/setupPaymentMethod'}><a className="link link-hover">Setup Payment Method</a></Link>
+                    <Link to={'/plan'}><a className="link link-hover">Plan</a></Link>
+                    <Link to={'/membership'}><a className="link link-hover">Membership</a></Link>
+                    <Link to={'/login'}><a className="link link-hover">Log In</a></Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Company</h6>
