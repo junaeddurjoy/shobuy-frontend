@@ -17,6 +17,8 @@ const Footer = () => {
                     <Link to={'/plan'}><a className="link link-hover">Plan</a></Link>
                     <Link to={'/membership'}><a className="link link-hover">Membership</a></Link>
                     <Link to={'/login'}><a className="link link-hover">Log In</a></Link>
+                    <Link to={'/favorites'}><a className="link link-hover">Favorites</a></Link>
+                    <Link to={'/trackPurchase'}><a className="link link-hover">Track Purchase</a></Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Company</h6>

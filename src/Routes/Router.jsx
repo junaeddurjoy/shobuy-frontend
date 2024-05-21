@@ -19,6 +19,8 @@ import Membership from "../Pages/Membership/Membership";
 import LogIn from "../Pages/LogIn/LogIn";
 import TellMeMore from "../Pages/TellMeMore/TellMeMore";
 import ComingSoon from "../Pages/ComingSoon/ComingSoon";
+import Favorites from "../Pages/Favorites/Favorites";
+import TrackPurchase from "../Pages/TrackPurchase/TrackPurchase";
 
 export const router = createBrowserRouter([
     // {
@@ -106,6 +108,14 @@ export const router = createBrowserRouter([
             {
                 path: "/comingSoon",
                 element: <ComingSoon></ComingSoon>,
+            },
+            {
+                path: "/favorites",
+                element: <Favorites></Favorites>,
+            },
+            {
+                path: "/trackPurchase",
+                element: <TrackPurchase></TrackPurchase>,
             },
         ]
     },
