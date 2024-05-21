@@ -17,6 +17,7 @@ import OTPLoading from "../Pages/OTPLayout/OTPLoading";
 import OTPVerify from "../Pages/OTPLayout/OTPVerify";
 import Membership from "../Pages/Membership/Membership";
 import LogIn from "../Pages/LogIn/LogIn";
+import TellMeMore from "../Pages/TellMeMore/TellMeMore";
 
 export const router = createBrowserRouter([
     // {
@@ -96,6 +97,10 @@ export const router = createBrowserRouter([
             {
                 path: "/login",
                 element: <LogIn></LogIn>,
+            },
+            {
+                path: "/tellMeMore",
+                element: <TellMeMore></TellMeMore>,
             },
         ]
     },
