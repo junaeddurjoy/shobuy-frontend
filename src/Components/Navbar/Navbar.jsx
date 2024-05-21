@@ -26,7 +26,7 @@ const Navbar = () => {
                                     </div>
                                 </li>
                                 {/* Sidebar content here */}
-                                <li><a>Marketplace</a></li>
+                                <li><Link to={'/marketplace'}>Marketplace</Link></li>
                                 <hr />
                                 <li><a>Membership</a></li>
                                 <hr />
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-bold">
-                        <li className="hover:underline"><a>Marketplace</a></li>
+                        <li className="hover:underline"><Link to={'/marketplace'}>Marketplace</Link></li>
                         <li className="hover:underline"><a>Membership</a></li>
                         <li className="hover:underline"><Link to={'/aboutUs'}>About Us</Link></li>
                         <li className="hover:underline"><Link to={'/FAQs'}>FAQs</Link></li>
