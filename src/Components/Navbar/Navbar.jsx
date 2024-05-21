@@ -63,7 +63,7 @@ const Navbar = () => {
                         <li className="hover:underline"><Link to={'/aboutUs'}>About Us</Link></li>
                         <li className="hover:underline"><Link to={'/FAQs'}>FAQs</Link></li>
                         <div className="avatar">
-                            <div className="w-10 rounded-xl">
+                            <div className="w-10 rounded-xl hover:border border-sky-100">
                                 <img src="https://i.ibb.co/7XbXYW3/profile-1.png" />
                             </div>
                         </div>
