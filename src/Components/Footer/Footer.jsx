@@ -25,6 +25,7 @@ const Footer = () => {
                     <Link to={'/tellMeMore'}><a className="link link-hover">Tell Me More</a></Link>
                     <Link to={'/otpLoading'}><a className="link link-hover">OTP Loading</a></Link>
                     <Link to={'/otpVerify'}><a className="link link-hover">OTP Verify</a></Link>
+                    <Link to={'/comingSoon'}><a className="link link-hover">Coming Soon</a></Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Legal</h6>
