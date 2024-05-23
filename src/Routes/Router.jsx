@@ -24,6 +24,8 @@ import TrackPurchase from "../Pages/TrackPurchase/TrackPurchase";
 import Purchased from "../Pages/TrackPurchase/Purchased";
 import Refund from "../Pages/Refund/Refund";
 import NotCanceled from "../Pages/TrackPurchase/NotCanceled";
+import Settings from "../Pages/Settings/Settings";
+import Payment from "../Pages/Settings/Payment";
 
 export const router = createBrowserRouter([
     // {
@@ -131,6 +133,14 @@ export const router = createBrowserRouter([
             {
                 path: "/notCanceled",
                 element: <NotCanceled></NotCanceled>,
+            },
+            {
+                path: "/settings",
+                element: <Settings></Settings>,
+            },
+            {
+                path: "/payment",
+                element: <Payment></Payment>,
             },
         ]
     },

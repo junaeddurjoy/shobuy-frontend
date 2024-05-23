@@ -31,6 +31,8 @@ const Footer = () => {
                     <Link to={'/otpLoading'}><a className="link link-hover">OTP Loading</a></Link>
                     <Link to={'/otpVerify'}><a className="link link-hover">OTP Verify</a></Link>
                     <Link to={'/comingSoon'}><a className="link link-hover">Coming Soon</a></Link>
+                    <Link to={'/settings'}><a className="link link-hover">Settings</a></Link>
+                    <Link to={'/payment'}><a className="link link-hover">Payment</a></Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Legal</h6>
