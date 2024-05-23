@@ -21,6 +21,9 @@ import TellMeMore from "../Pages/TellMeMore/TellMeMore";
 import ComingSoon from "../Pages/ComingSoon/ComingSoon";
 import Favorites from "../Pages/Favorites/Favorites";
 import TrackPurchase from "../Pages/TrackPurchase/TrackPurchase";
+import Purchased from "../Pages/TrackPurchase/Purchased";
+import Refund from "../Pages/Refund/Refund";
+import NotCanceled from "../Pages/TrackPurchase/NotCanceled";
 
 export const router = createBrowserRouter([
     // {
@@ -116,6 +119,18 @@ export const router = createBrowserRouter([
             {
                 path: "/trackPurchase",
                 element: <TrackPurchase></TrackPurchase>,
+            },
+            {
+                path: "/purchased",
+                element: <Purchased></Purchased>,
+            },
+            {
+                path: "/refund",
+                element: <Refund></Refund>,
+            },
+            {
+                path: "/notCanceled",
+                element: <NotCanceled></NotCanceled>,
             },
         ]
     },

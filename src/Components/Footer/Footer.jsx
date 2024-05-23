@@ -19,6 +19,9 @@ const Footer = () => {
                     <Link to={'/login'}><a className="link link-hover">Log In</a></Link>
                     <Link to={'/favorites'}><a className="link link-hover">Favorites</a></Link>
                     <Link to={'/trackPurchase'}><a className="link link-hover">Track Purchase</a></Link>
+                    <Link to={'/purchased'}><a className="link link-hover">Purchased</a></Link>
+                    <Link to={'/refund'}><a className="link link-hover">Refund</a></Link>
+                    <Link to={'/notCanceled'}><a className="link link-hover">Not Canceled</a></Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Company</h6>
