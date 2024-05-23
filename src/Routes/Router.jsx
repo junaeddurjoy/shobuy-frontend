@@ -28,24 +28,6 @@ import Settings from "../Pages/Settings/Settings";
 import Payment from "../Pages/Settings/Payment";
 
 export const router = createBrowserRouter([
-    // {
-    //     path: "/shobuy-frontend",
-    //     element: <Main></Main>,
-    //     children: [
-    //         {
-    //             path: "/shobuy-frontend",
-    //             element: <Home></Home>,
-    //         },
-    //         {
-    //             path: "/shobuy-frontend/aboutUs",
-    //             element: <AboutUs></AboutUs>,
-    //         },
-    //         {
-    //             path: "/shobuy-frontend/FAQs",
-    //             element: <FAQs></FAQs>,
-    //         }
-    //     ]
-    // },
     {
         path: "/",
         element: <Main></Main>,
