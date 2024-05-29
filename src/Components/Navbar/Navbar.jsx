@@ -62,6 +62,18 @@ const Navbar = () => {
                         <li className="hover:underline"><a>Membership</a></li>
                         <li className="hover:underline"><Link to={'/aboutUs'}>About Us</Link></li>
                         <li className="hover:underline"><Link to={'/FAQs'}>FAQs</Link></li>
+                        {/* <li>
+                            <details>
+                                <summary>
+                                    Pages
+                                </summary>
+                                <ul className="p-2 bg-black text-white border rounded-2xl">
+                                    <li><a>Link 1</a></li>
+                                    <hr />
+                                    <li><a>Link 2</a></li>
+                                </ul>
+                            </details>
+                        </li> */}
                         <div className="avatar">
                             <div className="w-10 rounded-xl hover:border border-sky-100">
                                 <img src="https://i.ibb.co/7XbXYW3/profile-1.png" />
