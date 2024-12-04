@@ -76,7 +76,7 @@ const Navbar = () => {
                         </li> */}
                         <div className="avatar">
                             <div className="w-10 rounded-xl hover:border border-sky-100">
-                                <img src="https://i.ibb.co/7XbXYW3/profile-1.png" />
+                                <img src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/C597/production/_131938505_ind3bc40c5f1c10d4248e6bf848ae7033c8814005e9-1.jpg" />
                             </div>
                         </div>
                     </ul>
